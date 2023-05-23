@@ -8,8 +8,8 @@ TOKEN = 'your token'
 api_url = 'https://notify-api.line.me/api/notify'
 
 WEATHER_TRANS = json.load(open("transweather.json", "r"))
-OFFICES_AREA_CODE = "230000"
-CLASS_AREA_CODE = "2320300"
+OFFICES_AREA_CODE = ""
+CLASS_AREA_CODE = ""
 AREA_URL = "https://www.jma.go.jp/bosai/common/const/area.json"
 warning_bool=False
 warning_text_new=[]
